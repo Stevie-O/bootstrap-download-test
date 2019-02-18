@@ -1,3 +1,4 @@
-bdt*.tgz
-bdt*.tar.gz
+*.tgz
+*.tar.gz
+bdt-files
 
