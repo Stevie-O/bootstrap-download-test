@@ -12,5 +12,5 @@ LATEST_TARBALL_URL=`curl -s -S -L "$LATEST_INFO_URL" -o - | grep -Po '"tarball_u
 
 mkdir -p bdt-files
 cd bdt-files
-curl -s -S -L "$LATEST_TARBALL_URL" -o - | tar -x -z -v --strip-components=1
+curl -s -S -L "$LATEST_TARBALL_URL" -o - | tar -x -z --strip-components=1
 . ./main.sh
